@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Marvel Super Heroes</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Super-heróis</string>
+    <string name="tab_text_3">QRCode</string>
+
+    <!-- HOME SCREEN STRINGS -->
+    <string name="marvel_logo_description">Logo da Marvel</string>
+
+    <string name="genre_label">Gênero</string>
+    <string name="genre_text">Editora</string>
+
+    <string name="foundation_label">Fundação</string>
+    <string name="foundation_text">1939 (como Timely Comics)</string>
+
+    <string name="founders_label">Fundador(es)</string>
+    <string name="founders_text">Martin Goodman</string>
+
+    <string name="headoffice_label">Sede</string>
+    <string name="headoffice_text">135 W. 50th Street, Nova York, NY, Estados Unidos</string>
+
+    <string name="owner_label">Proprietário(s)</string>
+    <string name="owner_text">The Walt Disney Company, dona da Marvel Entertainment, LLC, companhia à qual pertence a Marvel Comics.</string>
+
+    <string name="chairman_label">Presidente</string>
+    <string name="chairman_text">Kevin Feige</string>
+
+    <string name="keypeople_label">Pessoas-chave</string>
+    <string name="keypeople_text">C.B. Cebulski, editor-chefe\nDan Buckley, editor, COO\nStan Lee, antigo editor-chefe, editor</string>
+
+    <string name="products_label">Produtos</string>
+    <string name="products_text">Revistas, livros e filmes</string>
+
+    <string name="netincome_label">Receita líquida</string>
+    <string name="netincome_text">US$326.3 milhões (2015)</string>
+
+    <string name="website_label">Website oficial</string>
+    <string name="website_text">www.marvel.com</string>
+
+    <!-- HEROES SCREEN STRINGS -->
+    <string name="hero_image_description">Foto do herói</string>
+
+    <string name="error_server">Ocorreu um erro ao conectar com o servidor, tente novamente mais tarde.</string>
+
+</resources>
