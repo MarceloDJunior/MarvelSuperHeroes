@@ -39,7 +39,11 @@
 
     <!-- HEROES SCREEN STRINGS -->
     <string name="hero_image_description">Foto do herói</string>
-
     <string name="error_server">Ocorreu um erro ao conectar com o servidor, tente novamente mais tarde.</string>
+
+    <!-- QR CODE SCREEN STRINGS -->
+    <string name="qr_code_permission_text">Você precisa dar permissão de acesso a cãmera para ler o QRCode.</string>
+    <string name="alert_success">Sucesso</string>
+    <string name="qr_code_success">O QRCode foi lido com sucesso!</string>
 
 </resources>

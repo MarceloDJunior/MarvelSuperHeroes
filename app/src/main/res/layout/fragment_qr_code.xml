@@ -8,6 +8,27 @@
     <com.dlazaro66.qrcodereaderview.QRCodeReaderView
         android:id="@+id/qrdecoderview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/view_qrcode_frame"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/qrcode_frame"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_permission"
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="@string/qr_code_permission_text"/>
+
 
 </RelativeLayout>

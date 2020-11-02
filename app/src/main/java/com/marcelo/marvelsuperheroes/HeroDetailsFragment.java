@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -67,7 +68,7 @@ public class HeroDetailsFragment extends DialogFragment {
                 .into(ivHeroPicture);
 
         tvHeroName.setText(hero.getName());
-        tvHeroDescription.setText(hero.getDescription());
+        tvHeroDescription.setText(Html.fromHtml(hero.getDescription()));
 
         getDialog().getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
 
