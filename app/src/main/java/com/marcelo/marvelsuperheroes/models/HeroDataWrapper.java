@@ -7,16 +7,8 @@ import java.io.Serializable;
 
 public class HeroDataWrapper implements Serializable {
 
-    @SerializedName("code")
-    @Expose
     private int code;
-
-    @SerializedName("status")
-    @Expose
     private String status;
-
-    @SerializedName("data")
-    @Expose
     private HeroDataContainer data;
 
     public HeroDataWrapper() {

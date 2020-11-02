@@ -157,14 +157,18 @@ public class HeroesFragment extends Fragment {
                     HeroDataWrapper heroDataWrapper = response.body();
 
                     if (heroDataWrapper.getCode() == 200) {
-                        HeroDataContainer heroData = heroDataWrapper.getData();
+                        HeroDataContainer heroesData = heroDataWrapper.getData();
 
-                        ArrayList<Hero> heroesReceived = heroData.results;
+                        ArrayList<Hero> heroesReceived = heroesData.getResults();
 
                         heroes.addAll(heroesReceived);
 
                         heroesAdapter.notifyDataSetChanged();
                         isLoading = false;
+
+                        if(heroes.size() >= heroesData.getTotal()) {
+                            loadedAll = true;
+                        }
 
                         getHeroesSuccess();
                     } else {

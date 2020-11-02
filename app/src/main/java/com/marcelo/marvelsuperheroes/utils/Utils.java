@@ -1,12 +1,8 @@
 package com.marcelo.marvelsuperheroes.utils;
 
-import android.util.Log;
-
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.Date;
-import java.util.logging.Level;
 
 public class Utils {
 
@@ -16,7 +12,6 @@ public class Utils {
             MessageDigest md = MessageDigest.getInstance("MD5");
             byte[] hash = md.digest(s.getBytes("UTF-8"));
 
-            //converting byte array to Hexadecimal String
             StringBuilder sb = new StringBuilder(2*hash.length);
             for(byte b : hash){
                 sb.append(String.format("%02x", b&0xff));

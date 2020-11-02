@@ -18,11 +18,8 @@ public class HeroesAdapter extends RecyclerView.Adapter<HeroesAdapter.HeroesView
     private final ArrayList<Hero> heroes;
     static OnItemClickListener mItemClickListener;
 
-    // Provide a reference to the views for each data item
-    // Complex data items may need more than one view per item, and
-    // you provide access to all the views for a data item in a view holder
     public static class HeroesViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        // each data item is just a string in this case
+
         public TextView tvHero;
         public ImageView ivHero;
 
